@@ -21,7 +21,7 @@ def enter_signs(word: str)->list[str]:
 
 def no_spaces(word: str)->str:
     'eliminate all spaces from word'
-    return [word.replace(' ',''), word]
+    return [[word.replace(' ',''), word]]
 
 def swap_letter(word: str)->list[str]:
     'swap every letter of a word pairwise'
